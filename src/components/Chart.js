@@ -11,7 +11,9 @@ import "./Chart.css";
 ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
 console.info('data: ', data);
 
-//Passing the react-fusioncharts component
+/**
+ * Passing the react-fusioncharts component
+ */
 class Chart extends React.Component {
 
   constructor(props) {

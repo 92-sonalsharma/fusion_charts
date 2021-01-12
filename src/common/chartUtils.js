@@ -1,5 +1,10 @@
 import { CHART_TYPES } from '../constants/Constants'
 
+/**
+ * 
+ * @param {*} dataset 
+ * Iterates on dataset object to return data based on chart types
+ */
 export const processData = (dataset) => {
   let processedData = []
 
@@ -22,6 +27,11 @@ export const processData = (dataset) => {
   Almost all of the dataObj.widgetChart.chart obj data
   in actual data is null so created dummy text for all 4 charts. 
 **/
+/**
+ * 
+ * @param {*} dataObj 
+ * Formulates chart configuration for LineChart Representation
+ */
 const processLineChartData = (dataObj) => {
 
   const chartData = {
@@ -30,11 +40,11 @@ const processLineChartData = (dataObj) => {
     height: "400",
     dataFormat: "json", // Data type
     dataSource: {
+      // Chart Configuration
       chart: {
         caption: "Line Chart Representation",
         yaxisname: "Bar Value",
         subcaption: "[A-Z]",
-        // numbersuffix: " mph",
         rotatelabels: "0",
         setadaptiveymin: "1",
         theme: "fusion"
@@ -55,6 +65,11 @@ const processLineChartData = (dataObj) => {
   return chartData;
 }
 
+/**
+ * 
+ * @param {*} dataObj 
+ * Formulates chart configuration for 2d Bar Representation
+ */
 const process2DBarChartData = (dataObj) => {
 
   const chartData = {
@@ -89,6 +104,11 @@ const process2DBarChartData = (dataObj) => {
   return chartData;
 }
 
+/**
+ * 
+ * @param {*} dataObj 
+ * Formulates chart configuration for 3D Pie Representation
+ */
 const process3DPieChartData = (dataObj) => {  
 
   const chartData = {
@@ -114,6 +134,11 @@ const process3DPieChartData = (dataObj) => {
   return chartData;
 }
 
+/**
+ * 
+ * @param {*} dataObj 
+ * Formulates chart configuration for 3D StackedBar Represeantaion
+ */
 const process3DStackedChartData = (dataObj) => {
 
   const chartData = {
