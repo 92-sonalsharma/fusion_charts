@@ -18,11 +18,11 @@ export const processData = (dataset) => {
   return processedData;
 }
 
+/**
+  Almost all of the dataObj.widgetChart.chart obj data
+  in actual data is null so created dummy text for all 4 charts. 
+**/
 const processLineChartData = (dataObj) => {
-  /* almost all of the dataObj.widgetChart.chart obj data
-   in actual data is null so created dummy text. */
-
-  //chartConfigs.dataSource.chart = dataObj.widgetChart.chart
 
   const chartData = {
     type: dataObj.graphName, //chart type
@@ -31,7 +31,7 @@ const processLineChartData = (dataObj) => {
     dataFormat: "json", // Data type
     dataSource: {
       chart: {
-        caption: "Average Fastball Velocity()",
+        caption: "Line Chart Representation",
         yaxisname: "Bar Value",
         subcaption: "[A-Z]",
         // numbersuffix: " mph",
@@ -57,15 +57,86 @@ const processLineChartData = (dataObj) => {
 
 const process2DBarChartData = (dataObj) => {
 
-  return {}
+  const chartData = {
+    type: "column2d", //chart type
+    width: "700",
+    height: "400",
+    dataFormat: "json", // Data type
+    dataSource: {
+      // Chart Configuration
+      chart: {
+        caption: "2D Bar Chart Representataion",
+        subCaption: "Dates",
+        xAxisName: "X-Axis",
+        yAxisName: "Y-axis",
+        numberSuffix: "",
+        theme: "fusion",
+        rotatelabels: "1"
+      },
+      data: []
+    }
+  }
+
+  let data;
+  dataObj.widgetChart.dataset.forEach((dataArray, categoryIndex) => {
+    data = dataArray.data.map((data, currentCategory) => {
+      data.label = dataObj.widgetChart.categories[categoryIndex].category[currentCategory].label
+      return data;
+    });
+  });
+  chartData.dataSource.data = data;
+
+  return chartData;
 }
 
-const process3DPieChartData = (dataObj) => {
+const process3DPieChartData = (dataObj) => {  
 
-  return {}
+  const chartData = {
+    type: "pie3d", //chart type
+    width: "700",
+    height: "400",
+    dataFormat: "json", // Data type
+    dataSource: {
+      // Chart Configuration
+      chart: {
+        caption: "3D Pie Chart Representation",
+        subcaption: "",
+        showvalues: "1",
+        showpercentintooltip: "0",
+        numberprefix: "",
+        enablemultislicing: "1",
+        theme: "fusion"
+      },
+      data: dataObj.widgetChart.data
+    }
+  }
+
+  return chartData;
 }
 
 const process3DStackedChartData = (dataObj) => {
 
-  return {}
+  const chartData = {
+    type: "stackedcolumn3d", //chart type
+    width: "700",
+    height: "400",
+    dataFormat: "json", // Data type
+    dataSource: {
+      // Chart Configuration
+      chart: {
+        caption: "3D Stacked Bar Representataion",
+        yaxisname: "Series",
+        subcaption: "(As per records)",
+        plottooltext:
+          "<b>$dataValue</b> in $label",
+        showsum: "0",
+        theme: "fusion"
+      },
+      categories: dataObj.widgetChart.categories,
+      dataset: dataObj.widgetChart.dataset
+    }
+  }
+
+  chartData.dataSource.data = dataObj.widgetChart.data;
+  return chartData;
 }
