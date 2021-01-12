@@ -9,7 +9,7 @@ import { processData } from '../common/chartUtils'
 import "./Chart.css";
 
 ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
-console.info('data: ', data);
+// console.info('originalData: ', data);
 
 /**
  * Passing the react-fusioncharts component
@@ -26,7 +26,7 @@ class Chart extends React.Component {
 
   render() {
     const chartsData = this.state.chartsData
-    console.info('chartsData: ', chartsData);
+    // console.info('processedData: ', chartsData);
     return (
       <div className="chart-container">
         {
