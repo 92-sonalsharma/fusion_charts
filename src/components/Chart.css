@@ -1,0 +1,11 @@
+.chart-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.chart-item {
+	flex: 0 45%;
+	/*demo*/
+	box-sizing: border-box;
+	width: 100%;
+}

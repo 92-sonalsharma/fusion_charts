@@ -1,0 +1,992 @@
+[
+  {
+    "widgetId": "1",
+    "widgetChart": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "2019-Q1"
+            },
+            {
+              "label": "2019-Q2"
+            },
+            {
+              "label": "2019-Q3"
+            },
+            {
+              "label": "2019-Q4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      },
+      "dataset": [
+        {
+          "seriesName": "0",
+          "data": [
+            {
+              "label": null,
+              "value": "20.0"
+            },
+            {
+              "label": null,
+              "value": "34.0"
+            },
+            {
+              "label": null,
+              "value": "17.0"
+            },
+            {
+              "label": null,
+              "value": "9.0"
+            }
+          ]
+        },
+        {
+          "seriesName": "10",
+          "data": [
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "seriesName": "100-BOOKED",
+          "data": [
+            {
+              "label": null,
+              "value": "5.76514199928E7"
+            },
+            {
+              "label": null,
+              "value": "6.0438419587199986E7"
+            },
+            {
+              "label": null,
+              "value": "5.788102232900002E7"
+            },
+            {
+              "label": null,
+              "value": "5.655038251189999E7"
+            }
+          ]
+        },
+        {
+          "seriesName": "100-UBR",
+          "data": [
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "seriesName": "50",
+          "data": [
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "seriesName": "75",
+          "data": [
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "seriesName": "N/A",
+          "data": [
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            }
+          ]
+        }
+      ]
+    },
+    "widgetName": "widget1",
+    "graphId": 8,
+    "graphName": "3D Stacked",
+    "group": true
+  },
+  {
+    "widgetId": "2",
+    "widgetChart": {
+      "data": [
+        {
+          "label": "B",
+          "value": "1.1642182076900003E7"
+        },
+        {
+          "label": "G",
+          "value": "5.442076761459997E7"
+        },
+        {
+          "label": "J",
+          "value": "5.386366982849997E7"
+        },
+        {
+          "label": "K",
+          "value": "9.518580478749996E7"
+        },
+        {
+          "label": "M",
+          "value": "4.164890180600002E7"
+        },
+        {
+          "label": "N",
+          "value": "127039.48380000003"
+        },
+        {
+          "label": "O'F",
+          "value": "3.3139974307699986E7"
+        },
+        {
+          "label": "O",
+          "value": "3.47330930053E7"
+        },
+        {
+          "label": "R",
+          "value": "9.713811982089998E7"
+        },
+        {
+          "label": "R",
+          "value": "69262.69679999996"
+        },
+        {
+          "label": "S",
+          "value": "307657.3867000001"
+        },
+        {
+          "label": "S",
+          "value": "0.0"
+        },
+        {
+          "label": "S",
+          "value": "4958278.8555000005"
+        },
+        {
+          "label": "V",
+          "value": "1.7989369324800003E7"
+        }
+      ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      }
+    },
+    "widgetName": "Widget2",
+    "graphId": 7,
+    "graphName": "3D Pie",
+    "group": false
+  },
+  {
+    "widgetId": "3",
+    "widgetChart": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": " "
+            },
+            {
+              "label": "01/01/2010"
+            },
+            {
+              "label": "01/01/2011"
+            },
+            {
+              "label": "01/01/2015"
+            },
+            {
+              "label": "01/01/2016"
+            },
+            {
+              "label": "01/01/2017"
+            },
+            {
+              "label": "01/01/2018"
+            },
+            {
+              "label": "01/01/2019"
+            },
+            {
+              "label": "01/01/2020"
+            },
+            {
+              "label": "01/01/2021"
+            },
+            {
+              "label": "01/01/2022"
+            },
+            {
+              "label": "01/01/2023"
+            },
+            {
+              "label": "01/15/2020"
+            },
+            {
+              "label": "01/22/2020"
+            },
+            {
+              "label": "01/23/2020"
+            },
+            {
+              "label": "01/24/2018"
+            },
+            {
+              "label": "01/25/2018"
+            },
+            {
+              "label": "01/31/2020"
+            },
+            {
+              "label": "02/01/2016"
+            },
+            {
+              "label": "02/04/2020"
+            },
+            {
+              "label": "02/19/2018"
+            },
+            {
+              "label": "02/27/2018"
+            },
+            {
+              "label": "03/01/2014"
+            },
+            {
+              "label": "03/01/2016"
+            },
+            {
+              "label": "03/12/2018"
+            },
+            {
+              "label": "04/01/2010"
+            },
+            {
+              "label": "04/01/2014"
+            },
+            {
+              "label": "04/01/2016"
+            },
+            {
+              "label": "04/01/2020"
+            },
+            {
+              "label": "04/16/2020"
+            },
+            {
+              "label": "05/01/2008"
+            },
+            {
+              "label": "05/01/2015"
+            },
+            {
+              "label": "05/01/2017"
+            },
+            {
+              "label": "06/01/2009"
+            },
+            {
+              "label": "06/03/2020"
+            },
+            {
+              "label": "06/05/2018"
+            },
+            {
+              "label": "06/16/2020"
+            },
+            {
+              "label": "06/18/2020"
+            },
+            {
+              "label": "06/21/2019"
+            },
+            {
+              "label": "07/01/2007"
+            },
+            {
+              "label": "07/01/2016"
+            },
+            {
+              "label": "07/01/2019"
+            },
+            {
+              "label": "07/14/2020"
+            },
+            {
+              "label": "07/20/2020"
+            },
+            {
+              "label": "08/01/2008"
+            },
+            {
+              "label": "08/01/2012"
+            },
+            {
+              "label": "08/01/2014"
+            },
+            {
+              "label": "09/01/2014"
+            },
+            {
+              "label": "09/01/2015"
+            },
+            {
+              "label": "09/01/2017"
+            },
+            {
+              "label": "09/06/2018"
+            },
+            {
+              "label": "10/01/2012"
+            },
+            {
+              "label": "10/01/2015"
+            },
+            {
+              "label": "10/09/2019"
+            },
+            {
+              "label": "10/12/2018"
+            },
+            {
+              "label": "10/21/2020"
+            },
+            {
+              "label": "10/25/2019"
+            },
+            {
+              "label": "11/01/2015"
+            },
+            {
+              "label": "11/01/2018"
+            },
+            {
+              "label": "11/18/2019"
+            },
+            {
+              "label": "11/20/2019"
+            },
+            {
+              "label": "11/21/2019"
+            },
+            {
+              "label": "11/25/2019"
+            },
+            {
+              "label": "12/05/2018"
+            },
+            {
+              "label": "12/16/2019"
+            },
+            {
+              "label": "12/19/2019"
+            },
+            {
+              "label": "12/31/1899"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      },
+      "dataset": [
+        {
+          "seriesName": " ",
+          "data": [
+            {
+              "label": null,
+              "value": "0.765954020491367"
+            },
+            {
+              "label": null,
+              "value": "1.0810392627412169"
+            },
+            {
+              "label": null,
+              "value": "0.7565701363728158"
+            },
+            {
+              "label": null,
+              "value": "1.216804931243451"
+            },
+            {
+              "label": null,
+              "value": "20.070859265406117"
+            },
+            {
+              "label": null,
+              "value": "0.9877433676478605"
+            },
+            {
+              "label": null,
+              "value": "1.8295"
+            },
+            {
+              "label": null,
+              "value": "1.9445457489276508"
+            },
+            {
+              "label": null,
+              "value": "1.6553036033126067"
+            },
+            {
+              "label": null,
+              "value": "1.0645001269572567"
+            },
+            {
+              "label": null,
+              "value": "7.2307082444228925"
+            },
+            {
+              "label": null,
+              "value": "11.517972771072605"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.6968000000000001"
+            },
+            {
+              "label": null,
+              "value": "0.7117"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.6273343928934914"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.3885"
+            },
+            {
+              "label": null,
+              "value": "1.2848721826761227"
+            },
+            {
+              "label": null,
+              "value": "2.0466999999999977"
+            },
+            {
+              "label": null,
+              "value": "0.5871119807447861"
+            },
+            {
+              "label": null,
+              "value": "0.21960000000000002"
+            },
+            {
+              "label": null,
+              "value": "1.754501195693598"
+            },
+            {
+              "label": null,
+              "value": "0.8167718202565999"
+            },
+            {
+              "label": null,
+              "value": "2.256989228839441"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "1.7968418285714287"
+            },
+            {
+              "label": null,
+              "value": "0.8455191721937617"
+            },
+            {
+              "label": null,
+              "value": "0.9267658777278154"
+            },
+            {
+              "label": null,
+              "value": "0.8525"
+            },
+            {
+              "label": null,
+              "value": "0.43889780803432404"
+            },
+            {
+              "label": null,
+              "value": "0.38855248093667194"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.23426873484411223"
+            },
+            {
+              "label": null,
+              "value": "0.1443556920986225"
+            },
+            {
+              "label": null,
+              "value": "3.3646179356449277"
+            },
+            {
+              "label": null,
+              "value": "1.906728232567651"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.5220419697817571"
+            },
+            {
+              "label": null,
+              "value": "0.3107933481992165"
+            },
+            {
+              "label": null,
+              "value": "2.645506410621322"
+            },
+            {
+              "label": null,
+              "value": "0.09974527530152079"
+            },
+            {
+              "label": null,
+              "value": "0.8751867648403518"
+            },
+            {
+              "label": null,
+              "value": "2.3714566408111963"
+            },
+            {
+              "label": null,
+              "value": "0.9101999999999999"
+            },
+            {
+              "label": null,
+              "value": "0.9900185237710456"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "1.084146443495431"
+            },
+            {
+              "label": null,
+              "value": "3.3026371020503524"
+            },
+            {
+              "label": null,
+              "value": "0.09729999999999998"
+            },
+            {
+              "label": null,
+              "value": "1.2249110271459653"
+            },
+            {
+              "label": null,
+              "value": "0.7189477945130467"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "0.8981018074748094"
+            },
+            {
+              "label": null,
+              "value": "1.562706113433437"
+            },
+            {
+              "label": null,
+              "value": "0.9768000000000001"
+            },
+            {
+              "label": null,
+              "value": "0.1701"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "2.4087"
+            },
+            {
+              "label": null,
+              "value": "2.117585761855767"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "7.2537"
+            },
+            {
+              "label": null,
+              "value": "0.9372189964464162"
+            }
+          ]
+        }
+      ]
+    },
+    "widgetName": "Test2DBar",
+    "graphId": 1,
+    "graphName": "2D Bar",
+    "group": true
+  },
+  {
+    "widgetId": "4",
+    "widgetChart": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "A"
+            },
+            {
+              "label": "B"
+            },
+            {
+              "label": "G"
+            },
+            {
+              "label": "J"
+            },
+            {
+              "label": "K"
+            },
+            {
+              "label": "M"
+            },
+            {
+              "label": "M"
+            },
+            {
+              "label": "N"
+            },
+            {
+              "label": "O'"
+            },
+            {
+              "label": "O"
+            },
+            {
+              "label": "R"
+            },
+            {
+              "label": "R"
+            },
+            {
+              "label": "R"
+            },
+            {
+              "label": "S"
+            },
+            {
+              "label": "S"
+            },
+            {
+              "label": "S"
+            },
+            {
+              "label": "V"
+            },
+            {
+              "label": "W"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      },
+      "dataset": [
+        {
+          "seriesName": " ",
+          "data": [
+            {
+              "label": null,
+              "value": "10.0"
+            },
+            {
+              "label": null,
+              "value": "20.0"
+            },
+            {
+              "label": null,
+              "value": "30.0"
+            },
+            {
+              "label": null,
+              "value": "40.0"
+            },
+            {
+              "label": null,
+              "value": "50.0"
+            },
+            {
+              "label": null,
+              "value": "40.0"
+            },
+            {
+              "label": null,
+              "value": "30.0"
+            },
+            {
+              "label": null,
+              "value": "20.0"
+            },
+            {
+              "label": null,
+              "value": "10.0"
+            },
+            {
+              "label": null,
+              "value": "0.0"
+            },
+            {
+              "label": null,
+              "value": "80.0"
+            },
+            {
+              "label": null,
+              "value": "90.0"
+            },
+            {
+              "label": null,
+              "value": "100.0"
+            },
+            {
+              "label": null,
+              "value": "70.0"
+            },
+            {
+              "label": null,
+              "value": "50.0"
+            },
+            {
+              "label": null,
+              "value": "30.0"
+            },
+            {
+              "label": null,
+              "value": "20.0"
+            },
+            {
+              "label": null,
+              "value": "10.0"
+            }
+          ]
+        }
+      ]
+    },
+    "widgetName": "testline",
+    "graphId": 9,
+    "graphName": "Line",
+    "group": true
+  }
+]
