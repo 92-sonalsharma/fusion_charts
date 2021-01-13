@@ -988,5 +988,374 @@
     "graphId": 9,
     "graphName": "Line",
     "group": true
+  },
+  {
+    "widgetId": "5",
+    "widgetChart": {
+      "data": [
+        {
+            "label": "Mon",
+            "value": "4123"
+        },
+        {
+            "label": "Tue",
+            "value": "4633"
+        },
+        {
+            "label": "Wed",
+            "value": "5507"
+        },
+        {
+            "label": "Thu",
+            "value": "4910"
+        },
+        {
+            "label": "Fri",
+            "value": "5529"
+        },
+        {
+            "label": "Sat",
+            "value": "5803"
+        },
+        {
+            "label": "Sun",
+            "value": "6202"
+        }
+      ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      }
+    },
+    "widgetName": "Widget5",
+    "graphId": 7,
+    "graphName": "Area 2D",
+    "group": false
+  },
+  {
+    "widgetId": "6",
+    "widgetChart": {
+      "data": [
+        {
+            "label": "Bakersfield Central",
+            "value": "880000",
+            "color": "#4248f5",
+            "valueFontColor": "#fefefe",
+            "link": "www.google.com"
+        },
+        {
+            "label": "Garden Groove harbour",
+            "value": "730000",
+            "color": "#eee",
+            "valueFontColor": "#fff"
+        },
+        {
+            "label": "Los Angeles Topanga",
+            "value": "590000",
+            "hoverColor": "#6cf542"
+        },
+        {
+            "label": "Compton-Rancho Dom",
+            "value": "520000"
+        },
+        {
+            "label": "Daly City Serramonte",
+            "value": "330000"
+        }
+    ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      }
+    },
+    "widgetName": "Widget6",
+    "graphId": 8,
+    "graphName": "Bar 3D",
+    "group": false
+  },
+  {
+    "widgetId": "7",
+    "widgetChart": {
+    "categories": [
+        {
+            "category": [
+                {
+                    "label": "$0",
+                    "x": "0"
+                },
+                {
+                    "label": "$20",
+                    "x": "20",
+                    "showverticalline": "1"
+                },
+                {
+                    "label": "$40",
+                    "x": "40",
+                    "showverticalline": "1"
+                },
+                {
+                    "label": "$60",
+                    "x": "60",
+                    "showverticalline": "1"
+                },
+                {
+                    "label": "$80",
+                    "x": "80",
+                    "showverticalline": "1"
+                },
+                {
+                    "label": "$100",
+                    "x": "100",
+                    "showverticalline": "1"
+                }
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "color": "#00aee4",
+            "data": [
+                {
+                    "x": "80",
+                    "y": "15000",
+                    "z": "24",
+                    "name": "Nike"
+                },
+                {
+                    "x": "60",
+                    "y": "18500",
+                    "z": "26",
+                    "name": "Adidas"
+                },
+                {
+                    "x": "50",
+                    "y": "19450",
+                    "z": "19",
+                    "name": "Puma"
+                },
+                {
+                    "x": "65",
+                    "y": "10500",
+                    "z": "8",
+                    "name": "Fila"
+                },
+                {
+                    "x": "43",
+                    "y": "8750",
+                    "z": "5",
+                    "name": "Lotto"
+                },
+                {
+                    "x": "32",
+                    "y": "22000",
+                    "z": "10",
+                    "name": "Reebok"
+                },
+                {
+                    "x": "44",
+                    "y": "13000",
+                    "z": "9",
+                    "name": "Woodland"
+                }
+            ]
+        }
+    ],
+    "trendlines": [
+        {
+            "line": [
+                {
+                    "startValue": "20000",
+                    "endValue": "30000",
+                    "isTrendZone": "1",
+                    "color": "#aaaaaa",
+                    "alpha": "14"
+                },
+                {
+                    "startValue": "10000",
+                    "endValue": "20000",
+                    "isTrendZone": "1",
+                    "color": "#aaaaaa",
+                    "alpha": "7"
+                }
+            ]
+        }
+    ],
+    "vTrendlines": [
+        {
+            "line": [
+                {
+                    "startValue": "44",
+                    "isTrendZone": "0",
+                    "color": "#0066cc",
+                    "thickness": "1",
+                    "dashed": "1",
+                    "displayValue": "Gross Avg."
+                }
+            ]
+        }
+    ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      }
+    },
+    "widgetName": "Widget7",
+    "graphId": 9,
+    "graphName": "Bubble",
+    "group": false
+  },
+  {
+    "widgetId": "8",
+    "widgetChart": {
+      "categories": [
+          {
+              "category": [
+                  {
+                      "label": "Grade 1"
+                  },
+                  {
+                      "label": "Grade 2"
+                  },
+                  {
+                      "label": "Grade 3"
+                  }
+              ]
+          }
+      ],
+      "dataset": [
+          {
+              "seriesname": "Male",
+              "lowerboxcolor": "#0075c2",
+              "upperboxcolor": "#1aaf5d",
+              "data": [
+                  {
+                      "value": "2400,2000,2500,2800,3500,4000, 3700, 3750, 3880, 5000,5500,7500,8000,8200, 8400, 8500, 8550, 8800, 8700, 9000, 14000"
+                  },
+                  {
+                      "value": "7500,9000,12000,13000,14000,16500,17000, 18000, 19000, 19500"
+                  },
+                  {
+                      "value": "15000,19000,25000,32000,50000,65000"
+                  }
+              ]
+          },
+          {
+              "seriesname": "Female",
+              "lowerboxcolor": "#f45b00",
+              "upperboxcolor": "#f2c500",
+              "data": [
+                  {
+                      "value": "1900,2100,2300,2350,2400,2550,3000,3500,4000, 6000, 6500, 9000"
+                  },
+                  {
+                      "value": "7000,8000,8300,8700,9500,11000,15000, 17000, 21000"
+                  },
+                  {
+                      "value": "24000,32000,35000,37000,39000, 58000"
+                  }
+              ]
+          }
+      ],
+      "chart": {
+        "caption": null,
+        "showLegend": null,
+        "showBorder": null,
+        "showValues": null,
+        "numberPrefix": null,
+        "styles": null,
+        "setList": [],
+        "dataSetList": [],
+        "decimals": null,
+        "thousandSeparator": null,
+        "numberScaleValue": null,
+        "numberScaleUnit": null,
+        "showPercentageValues": null,
+        "showAboutMenuItem": null,
+        "bgColor": null,
+        "defaultAnimation": null,
+        "animation": null,
+        "showShadow": null,
+        "use3Dlighting": null,
+        "paletteColors": null,
+        "xaxisName": null,
+        "yaxisMinValue": null,
+        "yaxisMaxValue": null,
+        "yaxisName": null,
+        "categoriesList": []
+      }
+    },
+    "widgetName": "Widget8",
+    "graphId": 10,
+    "graphName": "Box And Whisker 2D",
+    "group": false
   }
 ]
